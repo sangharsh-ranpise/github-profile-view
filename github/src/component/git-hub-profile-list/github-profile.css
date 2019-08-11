@@ -1,0 +1,45 @@
+.display-card{
+    display: flex;
+    position: relative;
+    /* display:inline-block; */
+    background-color: #F8F8FF;
+    /* width:55%; */
+    margin-bottom:20px;
+    min-width: 600px;
+    padding:8px;  
+    /* justify-content: space-between  */
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+}
+
+.user-details{
+    padding:8px;
+}
+
+.extra-details{
+line-height: 4;
+position: absolute;
+    right: 42px;
+}
+
+.extra-details-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+}
+
+.extra-details-btn:hover{
+    border: 1px solid #008CBA;
+    box-shadow: 0px 3px 6px 1px #008CAC;
+}
